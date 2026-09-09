@@ -20,7 +20,7 @@ services:
     image: ghcr.io/diced/zipline:latest
     restart: unless-stopped
     ports:
-      - '7200:7200'
+      - '7200:3000'
     env_file:
       - .env
     environment:
